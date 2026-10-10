@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="120" viewBox="0 0 880 120" role="img" aria-label="Danke fürs Vorbeischauen">
+<defs>
+  <linearGradient id="g" x1="0" x2="1">
+    <stop offset="0" stop-color="#7ee787"/><stop offset=".5" stop-color="#79c0ff"/><stop offset="1" stop-color="#d2a8ff"/>
+  </linearGradient>
+</defs>
+<style>
+.w{animation:drift 9s linear infinite}
+.w2{animation:drift 14s linear infinite reverse}
+@keyframes drift{to{transform:translateX(-440px)}}
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:14px;fill:#8b949e}
+</style>
+<g class="w2" opacity=".35"><path fill="url(#g)" d="M0 70 Q110 40 220 70 T440 70 T660 70 T880 70 T1100 70 T1320 70 V120 H0Z"/></g>
+<g class="w" opacity=".7"><path fill="url(#g)" d="M0 85 Q110 60 220 85 T440 85 T660 85 T880 85 T1100 85 T1320 85 V120 H0Z"/></g>
+<text x="440" y="34" text-anchor="middle">exit 0  —  danke fürs Vorbeischauen ✦</text>
+</svg>
